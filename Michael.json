@@ -1,0 +1,24 @@
+[
+  [
+    {"Where do we study?" : [["Ashkelon", 0], ["Ashdod", 0], ["Gan Yavne", 1]]},
+    {"Who is the red-haired guide?" : [["giving", 0], ["Nitai", 0], ["Eldad", 1]]},
+    {"How many A/C are there in the classroom today?" : [["one", 0], ["None at all", 0], ["two", 1]]}
+  ],
+  [
+    {"Who is the bald student?" : [["Haim", 0], ["Daniel", 0], ["beny", 1]]},
+    {"Who is the 'Habadnic' in the class?" : [["Donut", 0], ["David Shaul", 0], ["Abrami", 1]]},
+    {"Who lives in Netivot?" : [["Itzik", 0], ["Menachem", 0], ["Ovadia", 1]]}
+  ],
+  [
+    {"Who is the tallest lecturer?" : [["Ron", 0], ["Natty", 0], ["Adir", 1]]},
+    {"Who teaches Python?" : [["Abrami", 0], ["Elroi", 0], ["Natty", 1]]},
+    {"Who teaches SQL?" : [["Israel", 0], ["Shimon", 0], ["Ron", 1]]}
+  ]
+]
+
+
+
+
+
+
+
