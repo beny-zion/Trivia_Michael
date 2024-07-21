@@ -1,13 +1,14 @@
 import json
 import random
 
+
 class Player():
     def __init__(self,name,points = 0):
         self.name = name
         self.points = points
-def enrollment():
+def enrollment(number_players):
     players = []
-    number_players = int(input("How many players are you? (2/3): "))
+    # number_players = int(input("How many players are you? (2/3): "))
     for i in range (number_players):
         name = input(f"what is your name [actor {i+1}]?")
         player = Player(name)
@@ -15,7 +16,7 @@ def enrollment():
     return players
 
 def json_to_python(level):
-    with open(r'C:\Users\beni4\Desktop\new_project\Michael_Project\Michael.json', 'r') as file:
+    with open(r"C:\Users\1\Desktop\new_project\Michael_Project\Michael.json", 'r') as file:
         data = json.load(file)
     weak   = data[0]
     medium = data[1]
@@ -67,16 +68,3 @@ def randomly(players):
                 current_player = (current_player + 1) % len(players)
         number_level += 1
     the_winner(players)
-def main():
-    players = enrollment()
-    randomly(players)
-main()
-
-
-
-
-
-
-
-
-
